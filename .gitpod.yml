@@ -21,9 +21,10 @@ tasks:
 
         # Change the default `sqlite` datasource provider to `postgres`
         sed -i 's|provider = "sqlite"|provider = "postgres"|' "api/db/schema.prisma"
-      } fi
 
-      if test -e redwood.toml; then {
+        # Update the repo URLs on README.md
+        sed "s|https://github.com/ahaywood/redwood-starter.git|$(jq -r '.repository.cloneUrl' <<<"${GITPOD_WORKSPACE_CONTEXT}")|g" README.md
+      } else {
         yarn install
       } fi
 

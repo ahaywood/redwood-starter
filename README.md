@@ -1,4 +1,4 @@
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ahaywood/redwood-starter.git)
 
 # RedwoodJS GitPod Starter
 
@@ -8,7 +8,7 @@ This repository enables you to easily launch [RedwoodJS](https://redwoodjs.com/)
 
 Click on the Open in Gitpod button.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ahaywood/redwood-starter)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ahaywood/redwood-starter.git)
 
 This will launch GitPod and ask you to configure a new workspace. Click continue.
 
